@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lato:wght@400;700&display=swap');
+#intro {
+  font-family: 'Great Vibes', cursive;
+  text-align: center;
+  padding: 2rem;
+  background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('images/intro-background.jpg');
+  background-size: cover;
+  color: #333;
+  border-radius: 8px;
+  margin: 2rem auto;
+  max-width: 900px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#intro h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #f8b400;
+}
+
+#intro p {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.6;
+}
+#gallery {
+  text-align: center;
+  padding: 2rem;
+  font-family: 'Lato', sans-serif;
+}
+
+#gallery h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.mosaic {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+}
+
+.mosaic img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.mosaic img:hover {
+  transform: scale(1.05);
+}
